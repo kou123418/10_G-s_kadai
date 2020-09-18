@@ -1,0 +1,250 @@
+/* index.htmlのcss */
+
+html{
+    width:100%;
+}
+.body{
+    font-family: align-self;
+}
+
+/* headerのcss */
+.header_list{
+    display: flex;
+}
+.header_list_login{
+    display: flex-end;
+}
+
+/* top_contentのcss */
+.top_content{
+    margin-top: 30px;
+}
+
+.top_row{
+    padding-top: 180px;
+}
+.read_word{
+    font-size: 40px;
+}
+
+.form_control{
+    font-size: 20px; 
+    height: 25px; 
+    width: 250px;
+}
+
+.btn_primary{
+    font-size: 20px; 
+    height:30px; 
+    width: 150px; 
+    margin-top: 20px;
+}
+
+.button_push{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+.form-all{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.form{
+    display: inline-flex;
+}
+
+.form_content{
+    height:20px;
+    width: 250px;
+    margin-left:70px ;
+}
+
+ul{
+    list-style: none;
+}
+
+.company-index{
+    margin: 20px;
+    width: 100px;
+}
+
+/* これも後回し */
+.back_img_1{
+    background-image: url('../img/top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+.back_img_2{
+    background-image: url('../img/bg-showcase-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.back_img_3{
+    background-image: url('../img/bg-showcase-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.container{
+    text-align: center;
+}
+.row{
+    display:inline-flex;
+    text-align: center;
+    width: 100%;
+}
+
+.col{
+    width: 200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.icon_1 img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/* select ダッシュボードのcss */
+
+.menu_line li{
+    margin:25px 0;
+}
+
+.main_menu{
+    background-color: rgb(245,245,245);
+}
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal_bg{
+    background: rgba(57,122,251);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal_content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+.content_content{
+    padding: 5%; 
+    border:1px solid #C0C0C0; 
+    border-radius:5px; 
+    margin:40px 0; 
+    display:flex; 
+    justify-content:flex-end;
+}
+.content_title{
+    height:150px; 
+    width:150px; 
+    border:1px solid #C0C0C0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius:50%;
+}
+
+.btn_primary_col{
+    height:40px; 
+    width:120px; 
+    margin-top:auto;
+}
+
+.content_content >:first-child{
+    margin-right: auto;
+}
+
+.footer{
+    background-color:rgb(254,180,9);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p.copy_title {
+    color: white;
+}
+ul.footer_navi_title {
+    color: white;
+}
+
+.footer_navi{
+    display: flex;
+    text-align: center;
+}
+
+.footer_navi_title{
+    display: flex;
+    padding:30px 0;
+    margin: auto;
+}
+
+.footer_navi_title li{
+    margin:0 20px;
+}
+
+.sns_link_list{
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+
+/* dailiylives のCSS */
+
+.problem{
+    margin-top:40px;
+    background-color: coral;
+}
+
+.answer{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* speak.phpのcss */
+
+
+
+
+
+
+
+
+
+
+
